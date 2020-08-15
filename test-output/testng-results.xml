@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53321" started-at="2020-08-15T08:38:20Z" finished-at="2020-08-15T08:39:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53321" started-at="2020-08-15T08:38:20Z" finished-at="2020-08-15T08:39:13Z">
+      <class name="com.test.UserRegisterTest">
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.test.UserRegisterTest@31a5c39e]" name="openurl" is-config="true" duration-ms="49894" started-at="2020-08-15T08:38:20Z" finished-at="2020-08-15T08:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:com.test.UserRegisterTest@31a5c39e]" name="registration" duration-ms="3381" started-at="2020-08-15T08:39:10Z" finished-at="2020-08-15T08:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+      </class> <!-- com.test.UserRegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
