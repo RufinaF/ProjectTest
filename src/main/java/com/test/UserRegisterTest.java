@@ -6,6 +6,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+//import org.junit.*;
+
 public class UserRegisterTest {
 	
 	public WebDriver driver;
@@ -52,5 +54,13 @@ public class UserRegisterTest {
 		driver.findElement(By.xpath("//input[@name='tnc']")).click();
 		driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
 		
+	}
+	
+	@Test
+	public void login() {
+		driver.findElement(By.linkText("Login")).click();
+		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("test@gmail.com");
+		driver.findElement(By.xpath("//input[@name='passowrd']")).sendKeys("test1234");
+		driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
 	}
 }
